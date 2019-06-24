@@ -1,92 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    html,
-    body {
-      text-align: center;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    @font-face {
-      font-family: 'Futura';
-      src: url('./futura.woff') format('woff');
-    }
-
-    * {
-      padding: 0;
-      margin: 0;
-      font-family: Futura;
-    }
-
-
-    .m0 {
-      margin: 0 auto;
-    }
-
-    .split {
-      width: 550px;
-      height: 2px;
-      background: #E8E8E8;
-    }
-
-    a {
-      color: #111111;
-    }
-
-    .email-wrapper {
-      width: 650px;
-      height: 1000px;
-      margin-top: 50px;
-      background: url("./images/subscribe.jpg") center no-repeat;
-    }
-    .header {
-      padding: 144px 0 40px;
-    }
-    .logo {
-      display: inline-block;
-      width: 280px;
-      height: 113px;
-      background: url("./images/logo.png") center no-repeat;
-      background-size: contain;
-    }
-
-    .email-title {
-      margin-top: 30px;
+  <meta charset="UTF-8">
+  <title>PIEPOCH</title>
+  <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+<body
+  style="text-align: center;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  font-family: Futura;">
+<div style="margin: 0 auto;"
+     style="width: 650px; height: 1000px; margin-top: 50px; margin: 0 auto;">
+  <div style="padding: 144px 0 40px">
+    <img src="./images/logo.png" title="piepoch" style="display: inline-block; width: 280px;
+      height: 113px; background-size: contain;"/>
+    <h2 style="margin-top: 30px;
       font-size: 18px;
       font-weight: normal;
       color: #111111;
-      letter-spacing: 0.96px;
-    }
-
-    .content {
-      padding: 40px 0;
-      width: 500px;
-    }
-
-    .dear-name {
-      font-size: 18px;
+      letter-spacing: 0.96px;">Account Confirmation</h2>
+  </div>
+  <div style="width: 550px;height: 2px; background: #E8E8E8;margin: 0 auto;"></div>
+  <div style="padding: 40px 0;
+      width: 500px; margin: 0 auto;">
+    <h3
+      style="font-size: 18px;
       font-weight: normal;
       color: #333333;
+      letter-spacing: 0.96px;">Dear
+      <span
+        style="font-size: 24px;
       letter-spacing: 0.96px;
-    }
-
-    .name {
-      font-size: 24px;
-      letter-spacing: 0.96px;
-      color: #111111;
-    }
-
-    .text {
-      margin-top: 20px;
+      color: #111111;">wangmingjie,</span></h3>
+    <p style="margin-top: 20px;
       font-size: 16px;
       letter-spacing: 0.85px;
       text-indent: 2px;
-      color: #333333;
-    }
-
-    .shop-now {
-      display: inline-block;
+      color: #333333;">You will receive Piepoch offers, promotions and other commercial messages. You are also agreeing to Piepoch’s Privacy Policy.</p>
+    <a href="javascript:;"
+       style="display: inline-block;
       width: 189px;
       height: 43px;
       margin: 40px 0 20px 0;
@@ -95,61 +49,39 @@
       color: #333333;
       letter-spacing: 0.85px;
       border: 1px solid #111111;
-      text-decoration: none;
-    }
-    .tips {
+      text-decoration: none;">SHOP NOW</a>
+    <p style="
       font-size: 16px;
       color: #666666;
-      letter-spacing: 0.85px;
-    }
-    .email-us {
-      padding: 40px 0;
+      letter-spacing: 0.85px;">We look forward to seeing you again soon.</p>
+  </div>
+  <div style="width: 550px;height: 2px; background: #E8E8E8;margin: 0 auto;"></div>
+  <div style="padding: 40px 0;
       font-size: 14px;
-      letter-spacing: 1.99px;
-    }
-    .footer {
-      width: 500px;
-      padding-top: 34px;
-    }
-    .footer-link {
-      color: #888888;
+      letter-spacing: 1.99px;">
+    Got any questions?Email us at
+    <a href="javascript" style="color: #111111;">service@piepoch.com</a>
+  </div>
+  <div style="width: 550px; height: 2px; background: #E8E8E8;margin: 0 auto;"></div>
+</div>
+<div style="width: 500px;
+      padding-top: 34px; margin: 0 auto;">
+  <a href="javascript:;"
+     style="color: #888888;
       font-size: 20px;
       letter-spacing: 1.7px;
-      text-decoration: none;
-    }
-    .left {
-      float: left;
-    }
-    .right {
-      float: right;
-    }
-  </style>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-<div class="email-wrapper m0">
-  <div class="header">
-    <div class="logo"></div>
-    <h2 class="email-title m0">Account Confirmation</h2>
-  </div>
-  <div class="split m0"></div>
-  <div class="content m0">
-    <h3 class="dear-name">Dear <span class='name'>wangmingjie,</span></h3>
-    <p class="text">You will receive Piepoch offers, promotions and other commercial messages. You are also agreeing to Piepoch’s Privacy Policy. </p>
-    <a class="shop-now" href="javascript:;">SHOP NOW</a>
-    <p class="tips">We look forward to seeing you again soon.</p>
-  </div>
-  <div class="split m0"></div>
-  <div class="email-us">
-    Got any questions?Email us at <a href="javascript">service@piepoch.com</a>
-  </div>
-  <div class="split m0"></div>
-  <div class="footer m0">
-    <a href="javascript:;" class="footer-link left">SHOP</a>
-    <a href="javascript:;" class="footer-link">NEW ARRIVALS</a>
-    <a href="javascript:;" class="footer-link right">DRESS</a>
-  </div>
+      text-decoration: none; float: left;">SHOP</a>
+  <a href="javascript:;"
+     style="color: #888888;
+      font-size: 20px;
+      letter-spacing: 1.7px;
+      text-decoration: none;">NEW ARRIVALS</a>
+  <a href="javascript:;"
+     style="color: #888888;
+      font-size: 20px;
+      letter-spacing: 1.7px;
+      text-decoration: none; float: right;">DRESS</a>
+</div>
 </div>
 </body>
 </html>
